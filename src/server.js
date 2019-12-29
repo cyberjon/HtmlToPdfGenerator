@@ -6,7 +6,7 @@ const pingRouter = require('./routes/pingRouter');
 const server = express();
 
 server.use(bodyParser.json({
-    limit: '100mb'
+    limit: '500mb'
 }));
 
 server.use('/api', apiRouter);
